@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <cmath>
+#include <vector>
 
 using namespace std;
 
@@ -15,6 +16,25 @@ cout<<"Ingrese una opcion: ";
 cin>>opcion;
 }
 
+struct cliente {
+string nombre;
+string cedula;
+string correo;
+int ruc;
+}
+
+void Agregar_Cliente(){
+	cliente nuevo;
+	cout<<"Ingrese el Nombre"<<endl;
+	cin>>nuevo.nombre;
+	cout<<"Ingrese la Cedula"<<endl;
+	cin>>nuevo.cedula;
+	cout<<"Ingrese el correo"<<endl;
+	cin>>nuevo.correo;
+	cout<<"Ingrese el RUC"<<endl;
+	cin>>nuevo,ruc;
+	
+}
 
 int main(){
 	Mostrar_menu();
