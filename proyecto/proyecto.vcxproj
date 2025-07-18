@@ -119,10 +119,18 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="actualizarProducto.cpp" />
+    <ClCompile Include="agregarProducto.cpp" />
+    <ClCompile Include="BuscarProducto2.cpp" />
     <ClCompile Include="MyForm.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="actualizarProducto.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="agregarProducto.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="BuscarProducto2.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="MyForm.h">
@@ -133,9 +141,18 @@
     <EmbeddedResource Include="actualizarProducto.resx">
       <DependentUpon>actualizarProducto.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="agregarProducto.resx">
+      <DependentUpon>agregarProducto.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscarProducto2.resx">
+      <DependentUpon>BuscarProducto2.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MyForm.resx">
       <DependentUpon>MyForm.h</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Downloads\1312307.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
