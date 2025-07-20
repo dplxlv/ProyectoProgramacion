@@ -185,6 +185,7 @@ namespace proyecto {
 			this->Controls->Add(this->btn_actualizar);
 			this->Controls->Add(this->btn_buscar);
 			this->Controls->Add(this->btn_agregar);
+			this->DoubleBuffered = true;
 			this->Margin = System::Windows::Forms::Padding(2);
 			this->Name = L"MyForm";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::Manual;
