@@ -24,7 +24,7 @@
     <ClCompile Include="agregarProducto.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="BuscarProducto2.cpp">
+    <ClCompile Include="buscarProducto.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
@@ -38,7 +38,7 @@
     <ClInclude Include="agregarProducto.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="BuscarProducto2.h">
+    <ClInclude Include="buscarProducto.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

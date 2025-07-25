@@ -1,7 +1,8 @@
 #pragma once
-#include "actualizarProducto.h" //Pantalla Actualizar producto
-#include "agregarProducto.h" //Pantalla Agregar producto
-#include "BuscarProducto2.h"//Pantalla Buscar producto
+#include "MyForm.h"
+#include "agregarProducto.h"
+#include "actualizarProducto.h"
+#include "buscarProducto.h"
 namespace proyecto {
 
 	using namespace System;
@@ -56,7 +57,7 @@ namespace proyecto {
 		/// <summary>
 		/// Variable del diseñador necesaria.
 		/// </summary>
-		System::ComponentModel::Container ^components;
+		System::ComponentModel::Container^ components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
@@ -200,30 +201,33 @@ namespace proyecto {
 	}
 	private: System::Void menuTitulo_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
-private: System::Void btn_salir_Click(System::Object^ sender, System::EventArgs^ e) {
-	Application::Exit();
-}
-//Boton Actualizar
-private: System::Void btn_actualizar_Click(System::Object^ sender, System::EventArgs^ e) {
-	proyecto::actualizarProducto^ formActualizar = gcnew proyecto::actualizarProducto();
-	this->Hide();
-	formActualizar->ShowDialog();
-	this->Show();
-}
-//Boton Agregar
-private: System::Void btn_agregar_Click(System::Object^ sender, System::EventArgs^ e) {
+	private: System::Void btn_salir_Click(System::Object^ sender, System::EventArgs^ e) {
+		Application::Exit();
+	}
+		   //Boton Actualizar -Menu Principal
+	private: System::Void btn_actualizar_Click(System::Object^ sender, System::EventArgs^ e) {
+		proyecto::actualizarProducto^ formActualizar = gcnew proyecto::actualizarProducto();
+		this->Hide();
+		formActualizar->ShowDialog();
+		this->Show();
+	}
+		   //Boton  Agregar - Menu Principal
+	private: System::Void btn_agregar_Click(System::Object^ sender, System::EventArgs^ e) {
 	proyecto::agregarProducto^ formAgregar = gcnew proyecto::agregarProducto();
 	this->Hide();
-	formAgregar->ShowDialog();	
+	formAgregar->ShowDialog();
 	this->Show();
+	}
+		   // Boton Buscar - Menu Principal
+	private: System::Void btn_buscar_Click(System::Object^ sender, System::EventArgs^ e) {
+		proyecto::buscarProducto^ formBuscar = gcnew proyecto::buscarProducto();
+		this->Hide();
+		formBuscar->ShowDialog();
+		this->Show();
+	}
+
+
+	};
 
 }
-//Boton Buscar
-private: System::Void btn_buscar_Click(System::Object^ sender, System::EventArgs^ e) {
-	proyecto::BuscarProducto2^ formBuscar = gcnew proyecto::BuscarProducto2();
-	this->Hide();
-	formBuscar->ShowDialog();
-	this->Show();
-}
-};
-}
+

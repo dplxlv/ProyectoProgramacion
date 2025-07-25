@@ -1,1 +1,12 @@
-101,Leche,1.00,100
+76,Carnes,Produc,18.9,2
+6172,hjahsudq,,,0
+,,,,0
+,,,,0
+CR,Chocapic,Cerealez,4.74,100
+,,,,0
+P012,Tony Leche,Lácteos,0.99,100
+,,,,0
+CAFE01,Cafe Negro,Bebidas,2.80,30
+S011,Salchichas,Carnes,18.50,50
+CH011,Chorizo,Embutidos,9.69,25
+M012,Mortadela,Embutidos,1.00,50
