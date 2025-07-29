@@ -2,7 +2,7 @@
 #include <string>
 
 struct Producto {
-	std::string registroId;  // Nuevo campo: número de registro generado automáticamente
+	std::string registroId; 
 	std::string codigo;
 	std::string nombre;
 	std::string categoria;
