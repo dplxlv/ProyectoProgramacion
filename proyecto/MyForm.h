@@ -3,6 +3,7 @@
 #include "agregarProducto.h"
 #include "actualizarProducto.h"
 #include "buscarProducto.h"
+#include "eliminarProducto.h"
 namespace proyecto {
 
 	using namespace System;
@@ -82,10 +83,9 @@ namespace proyecto {
 			this->btn_agregar->Font = (gcnew System::Drawing::Font(L"Showcard Gothic", 14, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->btn_agregar->ForeColor = System::Drawing::SystemColors::ButtonHighlight;
-			this->btn_agregar->Location = System::Drawing::Point(951, 248);
-			this->btn_agregar->Margin = System::Windows::Forms::Padding(2);
+			this->btn_agregar->Location = System::Drawing::Point(1426, 382);
 			this->btn_agregar->Name = L"btn_agregar";
-			this->btn_agregar->Size = System::Drawing::Size(309, 62);
+			this->btn_agregar->Size = System::Drawing::Size(464, 95);
 			this->btn_agregar->TabIndex = 0;
 			this->btn_agregar->Text = L"Agregar Nuevo Producto al Inventario";
 			this->btn_agregar->UseVisualStyleBackColor = false;
@@ -97,10 +97,9 @@ namespace proyecto {
 			this->btn_buscar->Font = (gcnew System::Drawing::Font(L"Showcard Gothic", 14, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->btn_buscar->ForeColor = System::Drawing::SystemColors::ButtonHighlight;
-			this->btn_buscar->Location = System::Drawing::Point(952, 324);
-			this->btn_buscar->Margin = System::Windows::Forms::Padding(2);
+			this->btn_buscar->Location = System::Drawing::Point(1428, 498);
 			this->btn_buscar->Name = L"btn_buscar";
-			this->btn_buscar->Size = System::Drawing::Size(309, 62);
+			this->btn_buscar->Size = System::Drawing::Size(464, 95);
 			this->btn_buscar->TabIndex = 8;
 			this->btn_buscar->Text = L"Buscar Producto en el Inventario";
 			this->btn_buscar->UseVisualStyleBackColor = false;
@@ -112,10 +111,9 @@ namespace proyecto {
 			this->btn_actualizar->Font = (gcnew System::Drawing::Font(L"Showcard Gothic", 14, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->btn_actualizar->ForeColor = System::Drawing::SystemColors::ButtonHighlight;
-			this->btn_actualizar->Location = System::Drawing::Point(951, 401);
-			this->btn_actualizar->Margin = System::Windows::Forms::Padding(2);
+			this->btn_actualizar->Location = System::Drawing::Point(1426, 617);
 			this->btn_actualizar->Name = L"btn_actualizar";
-			this->btn_actualizar->Size = System::Drawing::Size(309, 62);
+			this->btn_actualizar->Size = System::Drawing::Size(464, 95);
 			this->btn_actualizar->TabIndex = 9;
 			this->btn_actualizar->Text = L"Actualizar Producto del Inventario";
 			this->btn_actualizar->UseVisualStyleBackColor = false;
@@ -127,23 +125,22 @@ namespace proyecto {
 			this->btn_eliminar->Font = (gcnew System::Drawing::Font(L"Showcard Gothic", 14, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->btn_eliminar->ForeColor = System::Drawing::SystemColors::ButtonHighlight;
-			this->btn_eliminar->Location = System::Drawing::Point(951, 482);
-			this->btn_eliminar->Margin = System::Windows::Forms::Padding(2);
+			this->btn_eliminar->Location = System::Drawing::Point(1426, 742);
 			this->btn_eliminar->Name = L"btn_eliminar";
-			this->btn_eliminar->Size = System::Drawing::Size(309, 62);
+			this->btn_eliminar->Size = System::Drawing::Size(464, 95);
 			this->btn_eliminar->TabIndex = 10;
 			this->btn_eliminar->Text = L"Eliminar Producto del Inventario";
 			this->btn_eliminar->UseVisualStyleBackColor = false;
+			this->btn_eliminar->Click += gcnew System::EventHandler(this, &MyForm::btn_eliminar_Click);
 			// 
 			// btn_salir
 			// 
 			this->btn_salir->BackColor = System::Drawing::Color::Red;
 			this->btn_salir->Font = (gcnew System::Drawing::Font(L"Showcard Gothic", 14));
 			this->btn_salir->ForeColor = System::Drawing::SystemColors::ButtonHighlight;
-			this->btn_salir->Location = System::Drawing::Point(1091, 624);
-			this->btn_salir->Margin = System::Windows::Forms::Padding(2);
+			this->btn_salir->Location = System::Drawing::Point(1636, 960);
 			this->btn_salir->Name = L"btn_salir";
-			this->btn_salir->Size = System::Drawing::Size(143, 59);
+			this->btn_salir->Size = System::Drawing::Size(214, 91);
 			this->btn_salir->TabIndex = 11;
 			this->btn_salir->Text = L"Salir";
 			this->btn_salir->UseVisualStyleBackColor = false;
@@ -153,20 +150,18 @@ namespace proyecto {
 			// 
 			this->panel1->BackColor = System::Drawing::SystemColors::MenuHighlight;
 			this->panel1->ForeColor = System::Drawing::SystemColors::ButtonHighlight;
-			this->panel1->Location = System::Drawing::Point(546, 117);
-			this->panel1->Margin = System::Windows::Forms::Padding(2);
+			this->panel1->Location = System::Drawing::Point(689, 88);
 			this->panel1->Name = L"panel1";
-			this->panel1->Size = System::Drawing::Size(463, 91);
+			this->panel1->Size = System::Drawing::Size(694, 140);
 			this->panel1->TabIndex = 12;
 			// 
 			// menuTitulo
 			// 
 			this->menuTitulo->AutoSize = true;
 			this->menuTitulo->Font = (gcnew System::Drawing::Font(L"Stencil", 24));
-			this->menuTitulo->Location = System::Drawing::Point(556, 125);
-			this->menuTitulo->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->menuTitulo->Location = System::Drawing::Point(704, 100);
 			this->menuTitulo->Name = L"menuTitulo";
-			this->menuTitulo->Size = System::Drawing::Size(446, 76);
+			this->menuTitulo->Size = System::Drawing::Size(668, 114);
 			this->menuTitulo->TabIndex = 0;
 			this->menuTitulo->Text = L"Bienvenido al Sistema\r\n de Gestión de Inventario";
 			this->menuTitulo->TextAlign = System::Drawing::ContentAlignment::TopCenter;
@@ -174,11 +169,11 @@ namespace proyecto {
 			// 
 			// MyForm
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
+			this->AutoScaleDimensions = System::Drawing::SizeF(9, 20);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->ClientSize = System::Drawing::Size(1283, 690);
+			this->ClientSize = System::Drawing::Size(1924, 1062);
 			this->Controls->Add(this->menuTitulo);
 			this->Controls->Add(this->panel1);
 			this->Controls->Add(this->btn_salir);
@@ -187,10 +182,10 @@ namespace proyecto {
 			this->Controls->Add(this->btn_buscar);
 			this->Controls->Add(this->btn_agregar);
 			this->DoubleBuffered = true;
-			this->Margin = System::Windows::Forms::Padding(2);
 			this->Name = L"MyForm";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::Manual;
 			this->Text = L"MenuPrincipal ";
+			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			this->ResumeLayout(false);
 			this->PerformLayout();
@@ -227,7 +222,13 @@ namespace proyecto {
 	}
 
 
-	};
+	private: System::Void btn_eliminar_Click(System::Object^ sender, System::EventArgs^ e) {
+		proyecto::eliminarProducto^ formEliminar = gcnew proyecto::eliminarProducto();
+		this->Hide();
+		formEliminar->ShowDialog();
+		this->Show();
+	}
+};
 
 }
 

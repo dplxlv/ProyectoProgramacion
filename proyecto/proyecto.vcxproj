@@ -121,6 +121,7 @@
     <ClCompile Include="actualizarProducto.cpp" />
     <ClCompile Include="agregarProducto.cpp" />
     <ClCompile Include="buscarProducto.cpp" />
+    <ClCompile Include="eliminarProducto.cpp" />
     <ClCompile Include="MyForm.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -133,9 +134,13 @@
     <ClInclude Include="buscarProducto.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="eliminarProducto.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="Producto.h" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="actualizarProducto.resx">
@@ -146,6 +151,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="buscarProducto.resx">
       <DependentUpon>buscarProducto.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eliminarProducto.resx">
+      <DependentUpon>eliminarProducto.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MyForm.resx">
       <DependentUpon>MyForm.h</DependentUpon>

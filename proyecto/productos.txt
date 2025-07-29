@@ -1,12 +1,22 @@
-76,Carnes,Produc,18.9,2
-6172,hjahsudq,,,0
-,,,,0
-,,,,0
-CR,Chocapic,Cerealez,4.74,100
-,,,,0
-P012,Tony Leche,L�cteos,0.99,100
-,,,,0
-CAFE01,Cafe Negro,Bebidas,2.80,30
-S011,Salchichas,Carnes,18.50,50
-CH011,Chorizo,Embutidos,9.69,25
-M012,Mortadela,Embutidos,1.00,50
+1,1273218,Coca Cola,Bebidas,1.00,20
+2,1273217,Pepsi,Bebidas,2.10,12
+3,1273216,Agua Cielo,Bebidas,0.75,35
+4,1284500,Leche Entera La Vaquita,Lácteos y Huevos,1.25,18
+5,1284501,Yogur Natural Vitalínea,Lácteos y Huevos,1.50,25
+6,1299900,Pollo Entero Congelado,Carnes y Pescados,5.20,10
+7,1299901,Lomo de Atún,Carnes y Pescados,4.80,8
+8,1300000,Jamón de Pavo,Embutidos y Conservas,2.40,15
+9,1300001,Sardinas en Lata,Embutidos y Conservas,1.10,20
+10,1311000,Jabón Multiusos ABC,Productos de Limpieza para el Hogar,0.85,30
+11,1311001,Detergente Líquido Ariel,Productos de Limpieza para el Hogar,3.50,12
+12,1322100,Manzanas Rojas,Frutas y Verduras,1.30,40
+13,1322101,Zanahorias Frescas,Frutas y Verduras,0.60,50
+14,1333300,Pan de Molde Bimbo,Panadería y repostería,2.25,18
+15,1333301,Bizcochuelo de Vainilla,Panadería y repostería,3.10,10
+16,1344400,Avena Quaker,Cereales,1.75,20
+17,1344401,Arroz Extra Superior,Abarrotes,1.10,45
+18,1344402,Fideos Codito La Moderna,Abarrotes,0.90,25
+19,1355500,Shampoo Sedal,Cuidado personal y belleza,3.80,10
+20,1355501,Crema Corporal Nivea,Cuidado personal y belleza,4.50,8
+21,1366600,Papas Lay's Clasicas,Snacks y Golosinas,1.20,30
+22,1366601,Chocolatina Jet,Snacks y Golosinas,0.50,60
